@@ -1,0 +1,9 @@
+myWallet contains: Wallet[5, 50, 10, 5]
+myWallet value: 70 dollars
+myWallet reversed contains: Wallet[5, 10, 50, 5]
+
+now myWallet contains: Wallet[5, 10, 50, 5]
+yourWallet contains: Wallet[1, 5, 10, 50, 5]
+
+tom has same banknotes in same order as dick: false
+tom has same banknotes in same order as harry: true
