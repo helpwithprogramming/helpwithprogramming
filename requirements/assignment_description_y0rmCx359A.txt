@@ -1,0 +1,5 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program that reads three integer values from the keyboard using the JOptionPane class representing, respectively, a number of quarters, dimes, and nickels. Convert the total coin amount to dollars and output the result with dollar notation. Use the JOptionPane class for the output.
+
+Also i need to put them in eiter DecimalFormat or Decimal Number.

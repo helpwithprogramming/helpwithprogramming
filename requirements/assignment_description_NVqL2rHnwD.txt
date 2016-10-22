@@ -1,0 +1,17 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+For this program, you are reading from a file, data5.dat. The first column are sequential numbers starting at 1, corresponding to the line number. The second column gives a piece of data (floating point). The third column gives the date and time the data was taken (should read the 10-digit number as an integer long). The forth column contains 1's or 0's that denote if the data is good or not. 1 is good, 0 is bad, therefore discarded. 
+
+example of data5.dat:
+1 5.421 1202960413 0
+2 -223.432 1202960413 1
+3 -2.14 226991307 1
+4 22.222 905842300 1
+5 -27.1234 826430523 0
+6 1000.00 826430523 1
+7 -27.753 1010071201 1
+
+For the first part, I am supposed to print the good data to the screen. The second part adds the line numbers in, renumbered (so, only the good data, plus the line it is now on). The third part gives the date with the months spelled out. And the forth part adds the time onto the end of it. So, for line 1, the final output should look like;
+
+For the final output, line one should look look like;
+1 -223.432 December 2, 1996 at 4:13 AM

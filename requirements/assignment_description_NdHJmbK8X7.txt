@@ -1,0 +1,20 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program reverse.c that prompts the user for a nonnegative integer and outputs a
+sequence consisting of the entered integer, as many 's as the number of digits of the entered
+integer, and the entered integer with its digits reversed. Here is a sample run:
+(~)$ a.out
+Enter an integer: 0
+0*0
+(~)$ a.out
+Enter an integer: 123
+123***321
+(~)$ a.out
+Enter an integer: 12000
+12000*****00021
+(~)$ a.out
+Enter an integer: 021
+21**12
+(~)$ a.out
+Enter an integer: 3024
+3024***

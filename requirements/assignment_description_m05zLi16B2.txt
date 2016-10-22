@@ -1,0 +1,30 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Objective:	Use of Nested Loops
+
+Data Validation
+
+Input:	You are to enter Data for 4 classes of students from the keyboard:
+
+1.	Each class has a varying number of students
+2.	Each students’ data consists of a first and last initials and 1 exam score (0..100)*
+3.	There should be at least 5 students per class
+*4.	At LEAST 1 student per class must have an invalid score (out of Range)
+
+Processing:	Calculate AND/OR find
+1.	Average for each class
+2.	Average across all classes
+3.	Highest class average & what class it was
+4.	Highest student score in each class
+5.	Highest student scoreacross all classes
+
+Output:	
+1.	A.	Average for each class
+B.	Average for all classes
+C.	Highest class average & which class had it
+D.	Highest student score& who had it, for each class
+E.	Highest student score & who had it, across all classes
+
+2.	Data found in error should be output including: 
+
+A.	Score in error, initials of student & class they are in.

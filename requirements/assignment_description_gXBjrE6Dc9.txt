@@ -1,0 +1,50 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project Description:	# Define a simple class
+
+* 2 constructors: default/non-default
+* Set/Calc for each attribute (data members)
+o Data Validation in set methods.
+o Handle the results of the set method in the application. Keep asking until correct data is entered.
+* Get method for each attribute.
+* Display method – displays all data members in a neat presentation. 
+
+# Look at code you’ve written and figure out what code can be moved to the class. 
+
+* This code may be put into the set/calc/get methods (Validation and Calculations)
+* or you may create a new method in the class for it. (ex. sellItem(int qty) will compare qty to the number on hand and process the purchase if valid).
+* OR you may need to keep it in your application (where the GUI is built). 
+
+# Use files for input and output
+
+* Input: Requires a loop (possibly a nested loop) to read the data in. Once you've read the data in, you must use the data for something.
+o You must have AT LEAST 5 records in your input file.
+o We’ll be learning about Arrays, I expect you to read your file into an Array of objects. Suggestion: For now, leave the input file part out until we’ve covered Arrays.
+* Output file: use printf. Either a report or a receipt.
+
+# Data Validation: make sure that the information being passed in is appropriate for the class/application/method. 
+# GUI: Interactive; doesn't just display data.
+
+* Any message output to the user must use formatting (DecimalFormat / NumberFormat) for numbers.
+* You must use JButtons, JTextFields, JCheckboxes(2 or more), JRadioButtons (2 or more)
+
+# Naming Conventions: make your code easier to read/understand/grade.
+
+* variables: lowerCase
+* methods: startsWithVerb
+* Class: ClassNameStartsWithCapitol
+* Class Set Methods: set methods must be "setVariable" where Variable is the Class data member.
+* Same with Class get and calc methods.
+
+# Commenting your code thoroughly. This helps me grade faster. If it's not clearly commented, points will be taken off.
+# Use correct indentation. This helps me grade faster. 
+# Use of correct datatypes. money should be double/float; averages should be double/float; counters should be int; think about the values that go in the buckets and declare them appropriately.
+# What I expect to be turned in: (If these are not turned in, I will not be able to give you a full score because there won’t be time for me to contact you and get it resubmitted.)
+
+* Code
+o Class
+o UseClass that you used to test the class thoroughly
+o GUI application code
+* Input file
+* Screen print of the GUI
+* Output file.

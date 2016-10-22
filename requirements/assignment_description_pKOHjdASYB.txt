@@ -1,0 +1,17 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Your task in this assignment is to implement a number of different search algorithms using the Java programming language. A project called ‘Search’ containing a set of classes to support your implementation is available has been attached.
+
+The search algorithms you need to implement are:
+1. Breadth first search (BFS)
+2. Depth first search
+3. BFS Graph search
+4. Uniform cost search
+5. Greedy best first search
+6. A* search
+Each of these search algorithms perform differently on different problems. The assignment NetBeans project contains three different problems that emphasise these differences.
+
+What you need to do:
+1. Make a copy of the ‘Search’ NetBeans project available on the ‘Assignment 1’ mle page.
+2. Implement the BSF algorithm where it says ‘Do your search here…’ in the file called ‘Search.java’ (you only need to change this one file).
+3. Run the project and check that your implementation produces correct solutions, i.e., solutions with the correct path cost, and that it uses the correct number of steps. To run your algorithm on problems P2 and P3, you must replace the three occurrences of the class name ‘P1’ in the ‘Search.java’ file (two on line 20 and one on line 49) with either ‘P2’ or ‘P3’ depending on what problem you want to run.

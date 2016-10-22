@@ -1,0 +1,6 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+I was writing a program (in JAVA using eclipse helios software) where I assigned values to certain letters...for example, I assigned 'a' the value of 10, 'b' the value of 3, 'c' the value of '6', 'd' the value of 5, 'e' the value of 1, and 'f' the value of 8
+what the user has to do is to choose at least 4 out of the six numbers...once the user chooses 4 numbers, the result is supposed to be (1 + value of even numbers)/(1 + value of odd numbers)...so basically, my questions is "How do I get a tally of the value of the even numbers in the program" and "How do I get the tally of the value of the odd numbers...?" 
+Can someone please show me how (as in give me a sample code...) to do this...I've been struggling with it for 2 days now...
+Thanks, I would appreciate any sort of help that relates to this topic!

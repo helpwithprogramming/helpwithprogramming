@@ -1,0 +1,20 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Your program will play a game with the user. The user choose 1 of 2 games: Name the Country, or Name the Capital City. Given a city, the user tries to name the country or given a country the user tries to name the city. You will keep score.
+First you begin: decide how many times (10, 15, whatever) a question will be asked. Decide how many attempts the user will have to enter the correct answer. (2, 3 etc) Decide how you will score the answer. 10 points if correct or something similar…many 10 points if correct the first time, 5 on the second try….
+Now this is the general logic of the game/ you should fill in the details
+Let the user choose which game to play.
+Read the file into two string arrays or 1 2-D string array* (keep track of how many are read, you will need this later
+Prepare to keep score
+Loop 1 depends on the number of questions that will be asked
+Print the question “what is the capital of XXXXXX ?” (or XXXXXX is the capital of what country?) Note you need a random number to do this. The range is 0-number of elements in array.
+Loop 2 depends on the number of attempts the user has to answer each query AND whether or not the answer is correct
+Read the answer**
+See if the answer is correct
+If yes, print “the answer is correct” and add to score
+If no, print that the answer is wrong
+End loop 2
+If user got answer wrong print the correct answer
+Print the score
+•	Since the data has _ in some city names you will have to replace these with blank characters or insert _ characters in the user’s input
+**this must be read with getline……to accommodate blank spaces between words. You will either have to insert the _ to match the Input data or remove _ from the input data.

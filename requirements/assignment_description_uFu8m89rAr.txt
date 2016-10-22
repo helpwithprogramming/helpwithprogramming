@@ -1,0 +1,11 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Algorithm Review (30 pts)
+1. (15 pts) Write an algorithm that takes as input a student’s grade (on a scale from 0 to 100)
+and prints a message that tells the student what their grade is (≥90%: A, ≥80%: B, ≥70%:
+C, ≥60%: B, otherwise F). For example, if the grade is a 93%, the algorithm would print:
+You currently have an A (93%).
+2. (15 pts) Write an algorithm that prints all of the numbers in a list that could be a student's
+unweighted GPA (i.e., are between the values of 0.0 and 4.0). The algorithm should simply
+ignore any numbers in the list that are outside of this range (i.e., you need to make sure
+incorrect values are not printed).

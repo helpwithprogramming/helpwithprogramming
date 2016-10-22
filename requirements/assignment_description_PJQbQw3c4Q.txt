@@ -1,0 +1,10 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Create a text file named numbers.dat and key in the following numbers using an editor:
+55 65 70
+80 90
+100
+
+Write a program to read the numbers from this text file, find the sum and the average of these numbers, and print your answer as:
+Sum = 460
+Average = 76.67

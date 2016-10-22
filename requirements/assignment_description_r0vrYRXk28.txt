@@ -1,0 +1,17 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+The Game of Craps 
+player rolls two dice. Each die has six faces. These faces contain 1,2,3,4,5 or 6 spots. After the dice have come to rest, the sum of the spots on the two upward faces is calculated. If the sum is 7 or 11 on the first throw , the player wins. If the sum is 2,3,or 12 on the first throw (called "craps" ) the player loses and the house wins. If the sum is 4,5,6,8,9, or 10 on the first throw, then that sum becomes the player's point. To win, he must continue rolling the dice until he "makes his point", i.e. rolls the same sum again. If the player rolls 7 before making the point, he loses.
+Create this game in C++:
+write a function int rollDie( void) to simulate the rolling of 2 dice.
+function should return a random number between 1 and 6
+write a function int firstRoll ( void) to simulate the first roll.
+Function should call rollDie two times.
+It should then return 0 for a winning roll
+It should return -1 for a losing roll
+It should return the total roll value for non-winning non-losing rolls
+write a function int makePoint ( int point) to simulate the later rolls.
+Function should get as input the "point" to be made
+It should then return -1 for a losing roll
+It should return 0 for non-winning non-losing rolls
+It should return 1 for a winning roll

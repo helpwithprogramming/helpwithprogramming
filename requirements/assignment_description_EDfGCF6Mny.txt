@@ -1,0 +1,5 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+I need to write a program that prompts the user to enter a string of 87 characters the program should display the middle character in the string if there is an odd number characters in the string if the string is an even number of characters in the string the program should display the two characters
+
+And the second one i have to do is write a program that prompts the user to enter a string and the prompts the user to enter a character the program should display the number of times the character occurs in the string.

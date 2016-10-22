@@ -1,0 +1,9 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+you are required to write a very simple star database program based on two datasets: the first one is a star dataset and the second one is a constellation dataset. The given star dataset contains around 4800 stars, and it is actually a very small subset of the Hipparcos and Tycho Catalogue by the European Space Agency. 
+
+This assignment contains four tasks:
+1. Implement the class Star for individual star
+2. Implement the class Constellation for individual constellation
+3. Implement the star database class StarDB; it uses classes Star and Constellation
+4. Implement the main application class MainApp

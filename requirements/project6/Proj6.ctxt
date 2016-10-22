@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=date
+comment1.target=int\ getMonth(java.lang.String)
+comment1.text=\n\ getMonth\ returns\ the\ month\ in\ a\ date\n\ of\ the\ form\ month/day/year\n\n\ @param\ date\ -\ A\ date\ of\ the\ form\ month/day/year\n\ @return\ The\ month\ of\ the\ given\ date\n
+comment2.params=date
+comment2.target=int\ getDay(java.lang.String)
+comment2.text=\n\ getDay\ returns\ the\ day\ in\ a\ date\n\ of\ the\ form\ month/day/year\n\n\ @param\ date\ -\ A\ date\ of\ the\ form\ month/day/year\n\ @return\ The\ day\ of\ the\ given\ date\n
+comment3.params=date
+comment3.target=int\ getYear(java.lang.String)
+comment3.text=\n\ getYear\ returns\ the\ year\ in\ a\ date\n\ of\ the\ form\ month/day/year\n\n\ @param\ date\ -\ A\ date\ of\ the\ form\ month/day/year\n\ @return\ The\ year\ of\ the\ given\ date\n
+comment4.params=dates
+comment4.target=void\ printEarliest(java.lang.String[])
+comment4.text=\n\ printEarliest\ prints\ the\ date\ that\ comes\ chronologically\n\ first\ from\ the\ dates\ array\n\n\ @param\ dates\ -\ An\ array\ of\ dates,\ all\ of\ the\ form\ month/day/year\n
+comment5.params=dates
+comment5.target=void\ printLatest(java.lang.String[])
+comment5.text=\n\ printLatest\ prints\ the\ date\ that\ comes\ chronologically\n\ last\ from\ the\ dates\ array\n\n\ @param\ dates\ -\ An\ array\ of\ dates,\ all\ of\ the\ form\ month/day/year\n
+comment6.params=dates
+comment6.target=void\ printAvgYear(java.lang.String[])
+comment6.text=\n\ printAvgYear\ prints\ the\ average\ year\ among\ all\ the\ dates\ in\n\ the\ dates\ array\n\n\ @param\ dates\ -\ An\ array\ of\ dates,\ all\ of\ the\ form\ month/day/year\n
+numComments=7

@@ -1,0 +1,9 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program weekday.c that prompts the user for a date (entered as month/day) this year, and
+outputs the day of the week the date falls on. Use the fact that this year (2011), January 1st was
+a Saturday and that January, March, May, July, August, October, and December have 31 days,
+April, June, September, and November have 30 days, and February this year had 28 days.
+Note: Do not specify in the program the rst day of each month (e.g., that February 1st will fall
+on a Tuesday, etc.). Instead, use one switch statement to calculate the number of days till the date
+entered, and another switch statement to print the day of the week.

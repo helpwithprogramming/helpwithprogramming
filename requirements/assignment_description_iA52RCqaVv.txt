@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program that reads in a sequence of numbers from a file (use java.io.File, java.io.BufferedReader and java.io.FileReader), and computes the min, max, and average of those numbers.

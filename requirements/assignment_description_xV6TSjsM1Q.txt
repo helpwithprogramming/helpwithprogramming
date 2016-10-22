@@ -1,0 +1,37 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Notes::	Introduction
+
+Write an applet to handle book orders from a company specialized in Java programming textbooks. This program should run with JDK’s appletviewer using the downloaded file BC.html. This program should allow various users:
+
+- to enter orders for a number of customers,
+- to decide the shipment status depending on stock availability
+- to display all the orders information
+In this assignment class Customer stores the customer information. You are given the complete Java code for this class and you should study it before using it in BookCentre.java.
+
+Your Task
+
+Your task is to write a BookCentre class as an applet. On this applet you have to create the following Graphics User Interface:
+The Main Screen has on the left hand side 3 buttons presented in a column. These buttons have the labels: Input, Processing, Display. The user will click on these buttons to change the panels displayed in the right hand side of the screen (using the CardDeck layout manager). The following is the description of the right panels (the "cards"). Note that you have flexibility in organizing the layout of each panel, but a small percentage of the assignment mark will be associated with creating nice looking panels.
+
+The Input panel uses labels to prompt the user. It contains a textfield to enter the customer name, and a JList object containing the following Java-related book titles: "Deitel-Java How to Program", "Horstmann-Big Java", "Lewis-Software Solutions", "Staugaard-Java for IS", "Sun-Core Java", "Hamilton-JDBC", "Jackson-Java By Example", "Riley-The Object of Java", "Geary-Graphic Java", "Santry-Advanced Java2", "Bishop-Java Gently", "Wigglesworth-Advanced Java", "Liang-Intro to Java", "Lambert-Java". From that JList object, which should show 10 titles, the user will select 3 books. A Button labeled "Submit" displayed at the bottom of the panel allows the user to enter this input data into an array with maximum 100 Customer objects. Do not forget to erase the content of the textfield when the Submit button is clicked and provide a! label which shows how many customers were entered (for instance it should say "customer 5 out of 100").
+
+The Processing panel is used for the shipment of books. At the top this panel has a JComboBox which presents all customer names entered in the database ( Hint: the creation of the JComboBox requires an array of strings as parameter. This array has to be created during the input process). When the user selects a name from the JComboBox, this program will get the corresponding object from the array of objects. The panel will present three labels with the 3 books stored in this object, and next to each book two radio buttons (one for “Can be shipped”, one for “Shipment delayed”). Initially all buttons “Shipment delayed” are checked, but the user will click some “Can be shipped” radio buttons.
+
+Hint: You need a different ButtonGroup object for each book.
+
+for (int j = 0; j < 3; j++) {
+radioGroup[j] = new ButtonGroup();
+accept[j] = new JRadioButton("Can be shipped ", false);
+reject[j] = new JRadioButton("Shipment delayed ", true);
+radioGroup[j].add(accept[j]);
+radioGroup[j].add(reject[j]);
+
+A "Submit" button at the bottom of this panel will trigger the method setShipment() which will change the content of the Customer objects. The Processing can then be continued with the selection of a new customer name.
+
+The Display panel will present the content of the array of objects using a JTextArea object. The display uses Customer's method toString(). In this assignment the customers are displayed in alphabetic order (you need to sort the array of objects using the Bubble Sort algorithm). The text in the JTextArea is displayed with a Serif style font in Italic and 12-point size.
+
+Please find in the Supporting Files the screenshots of a sample solution after three customers have been entered. Note that these are just provided to you so that you have an idea of what the applet could look like; your solutions do not have to look exactly the same.
+
+Tests
+You should enter 3-4 customers into the array of objects and then process a few book shipments. At the end just make sure that the display correctly illustrates the shipment situation and that the listing of customers is in alphabetic order. Please note that the user may switch back and forth between different panels.

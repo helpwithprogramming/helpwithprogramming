@@ -1,0 +1,9 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program that generates a random number between 1 and 10, then asks a player to guess your number. The player should be given three tries to guess your number.
+
+Each time the player guesses, you should give them some feed back. Let them know if their guess was too high, or too low, or if they won the game!
+
+When the player guess correctly the game is over, don't keep asking them to guess. And remember,after three wrong guesses, the computer wins!
+
+DO NOT USE LOOPS for this program

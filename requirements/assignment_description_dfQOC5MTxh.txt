@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Want a C++ program to get, store and read Students details like name, Id, course name,age, sex, nationality etc.

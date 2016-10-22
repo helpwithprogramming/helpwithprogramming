@@ -1,0 +1,6 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Create an application class called Exercise4, and a class called GuessingGame that generates a random number between 1 and 99 and then queries the user to guess the number.
+
+Every time the user responds with a valid integer guess, tell the user whether the guess was too high or too low and let the user guess again. Whenever the user responds with an invalid integer, query the user again. If the user guesses the correct answer then congratulate the user and terminate the program, telling the user how many guesses were used to get the correct answer (a guess is when the user enters a valid integer).
+In the GuessingGame class

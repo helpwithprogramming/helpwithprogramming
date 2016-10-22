@@ -1,0 +1,24 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a method to test whether four numbers are all the same. For example,
+
+* 3, 3, 3, and 3 are all the same
+* 3, 3, 4, 3 are not all the same
+* 3, 4, 5, 5 are not all the same
+
+Complete the following code:
+
+/**
+A class to compare numbers.
+*/
+public class Numbers
+{
+/**
+Checks whether four numbers are all the same
+@return true if all of the numbers a, b, c, d are equal to another
+*/
+public boolean allDifferent(int a, int b, int c, int d)
+{
+// your work here
+}
+}

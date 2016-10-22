@@ -1,0 +1,7 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+write a C program that will read a sequence of integer numbers,
+one per line, from the file integers.dat. Upon reading all the numbers from the file, the
+program will tell you (i.e., write on the screen) how many numbers you have entered,
+how many among them were even, and how many were odd. The program must also
+display the average of integer numbers that were odd.

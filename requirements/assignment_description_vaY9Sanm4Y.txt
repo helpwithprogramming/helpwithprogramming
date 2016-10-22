@@ -1,0 +1,5 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Its a create your own project but i would like to make a data encryption program.
+Using a random generated public key, random private key thats generated with two keys and coded together, and a symmetric key.
+Would like to be able to giver user option to use 26, 36, or all chars to encryt.

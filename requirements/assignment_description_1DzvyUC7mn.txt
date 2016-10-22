@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+write a java program that will print all odd numbers and the sum between 1-50 and all even numbers and the sum between 50-100

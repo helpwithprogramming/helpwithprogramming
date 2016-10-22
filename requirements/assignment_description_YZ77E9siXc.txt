@@ -1,0 +1,4 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+a class of 10 students sits for an examination which has three sections,section A,section B and section C.write a c++ program to read student id, first name and marks for each student.
+should use proper names for identifiers in writing the program and if any of the input mark is less then zero or greater than 100,display proper error message and read a new mark.arrays,if statement and loops could be used in writing this program.

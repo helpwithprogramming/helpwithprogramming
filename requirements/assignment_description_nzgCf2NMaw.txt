@@ -1,0 +1,35 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project #3
+
+A:	DEFINITION:
+
+Prime:	A positive integer such as 5, 7, and 11 that could only be divided by 1 and itself;
+
+
+B:	ASSIGNMENT:
+
+Step 1.	You are going to write a program according to the following:
+
+(a)	The user is going to enter one integer, say x.
+
+(b)	The program will print out all the factors of x or “Prime”.
+
+Step 2.	Refine step 1 so that your program will keep asking for an integer and print out the factors or print out “Prime”. The program will stop when user enters 0.
+
+Step 3.	Refine step 2 so that your program will ask for two integers and print all the factors or the message “Prime” for each integer between x and y.
+
+Step 4.	Refine step 3 so that your program will continue asking for two integers and print all the factors or the message “Prime” for each integer between x and y. The program will stop when the first integer is > the second.
+
+Step 5.	Refine step 4 so that your program keeps the frequency count of the prime number and the average value of all the prime numbers found.
+
+Example:	
+Please enter two integers: 9 13
+9:	3
+10:	2	5
+11:	Prime
+12:	2	3	4	6
+13:	Prime
+There are 2 prime numbers. 
+The average value of the prime numbers is 12.00 
+Please enter two integers:

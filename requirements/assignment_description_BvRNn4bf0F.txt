@@ -1,0 +1,20 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a C++ program, including comments, to compute statistics for how students did on an exam. The program should compute various things about a student, and print it all out. Then it repeats the process for each new student until the entire set of data has been completed.
+(a) The program reads in the ID number of a student [see step (g) below] and then the number of right answers and the number of wrong answers. (The total number of questions on the test is 50.) For example, the program could read in the following:
+1234	20	5	(ID number 1234 has 20 right and 5 wrong)
+(b) The program computes and prints the total number of questions answered plus the number omitted (which is simply 50 minus the number answered). The number right plus the number wrong will never be more than 50 [see optional (a) below].
+(c) The program computes the student's correct answer percentage, which is a decimal value between 0 and 1. The correct answer percentage is the number of right answers divided by the number of questions answered. [The student always answers at least one question--see optional (b).] For the data values shown for ID number 1234 above, the correct answer percentage is 20 / 25 = 0.800. The program should print this out as shown, with three decimal places.
+(d) The program also assigns the student a numerical grade on the exam. The numerical grade is the number of right answers times 2 (ignoring the wrong answers). For example, ID number 1234 got a numerical grade of 40 on the exam (20 right x 2). The program prints the student's grade.
+(e) The program determines if the student had more right than wrong answers, the same number of each, or more wrong than right answers. It prints an appropriate message.
+(f) The program determines if the student omitted ten or more questions. It prints a message with this information.
+(g) Then the program skips a few lines and repeats the entire process for the next student until the last student is finished. (You must decide how to recognize the last student.)
+(h) At that point, print the total number of students in the class (you must keep track of this as the program executes) and stop.
+Data: Be sure to read in data for at least 12 students. Make sure that you have at least two with the same number right and wrong, at least two with more wrong than right, and at least two with more right than wrong. Include a student with all wrong answers and one with all right answers (but not 50 right). Have some students who don't omit anything and some who omit almost all the questions.
+Output: Here is a complete set of output for two typical students:
+id 1234 12 right	13 wrong total answered 25 number omitted is 25 grade is 24 more wrong than right correct answer pct. is 0.480 10 or more omitted
+id 7890 30 right	15 wrong total answered 45 number omitted is 5 grade is 60 more right than wrong correct answer pct. is 0.667 less than 10 omitted
+Optionals: (a) If a student answered more than 50 questions, print an error message,
+skip the rest of the processing, and go on to the next student.
+(b) Make sure that you do not divide by 0 if the student answered no questions (everything was omitted). Print a special message and go on to the next student.
+(c) Keep track of the student with the best correct answer percentage and the one with the highest grade. (These do not have to be the same--to test, make sure they are different.) Print these out at the end.

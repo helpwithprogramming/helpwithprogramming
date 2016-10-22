@@ -1,0 +1,20 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program wedge2.c that prompts the user for a positive integer and prints a wedge of 's
+whose longest line is of length equal to the entered number. Here is a sample run:
+(~)$ a.out
+Enter an integer: 1
+*
+(~)$ a.out
+Enter an integer: 2
+*
+**
+*
+(~)$ a.out
+Enter an integer: 3
+*
+**
+***
+**
+*
+(~)$

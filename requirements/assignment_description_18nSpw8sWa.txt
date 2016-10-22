@@ -1,0 +1,6 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project Description:	Utilizing a GUI, I would like a Java program that will be for the cashier at a coffee shop. The interface will allow the cashier to enter numbers from a displayed list (in a separate window), have that number's item description and price display in the GUI's window (allowing multiple items to be chosen, added to the window's list, and counted), then total the price, ask whether to add 6% tax, then display the total, a box for amount tendered, and then display the change. There would be a reset button at the bottom to start over. An option to send the information in the window to a printer would be nice, but not necessary.
+
+It must include: User interaction via the command line; Use of all control structures - sequence, selection (either if/else or switch) and repetition; User defined methods other than main; Data validation of user input; Use objects and members of a class other than the application class itself; Internal documentation (including comments) and Array(s). In addition, it would be nice to include methods that do Arithmetic, have
+Counters/accumulators and have a Built-in math method or random number generator.

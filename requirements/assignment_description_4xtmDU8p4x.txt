@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a loop that displays a table of angle measures along with their sine and cosine values. Assume that the initial and final angle measures are available in init_degree and final_degree, and that the change in angle measure between table entries is given by step_degree. Remember that the math library's sin and cos functions take arguments that are in radian.

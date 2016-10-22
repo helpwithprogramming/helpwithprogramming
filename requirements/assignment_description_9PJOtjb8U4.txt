@@ -1,0 +1,104 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project description::	In this programming assignment, you will have fun constructing a similar graph to represent a maze which can be used by the user to implement a simple maze game. You will analyze, design, implement and test the Tiger Maze App system. Once the graph is constructed by the game system, the user will try to traverse the maze from a starting point to a finish point, by selecting the direction to take at each node. Since the maze configuration is hidden from the user, he/she will first randomly select each direction and learn and remember past dead-end routes and try to find the correct route to the finish point. When the user reaches the finish point, the program will print out the number of steps taken by the user.
+
+What is a graph?
+
+A graph consists of multiple nodes and edges. For instance, a graph can be represented by the figure below, where the circles represent the nodes and the lines represent the edges. An edge connects two nodes. In this lab assignment, we will only consider special graphs, where each node can have at most four edges, in the four directions: North, East, South and West. An implementation detail to note here is that although the edge is represented by a single line, there are actually two links in both directions between the two nodes. For example, the line between A and B below is implemented by a link from A to B and another link from B to A.
+
+
+
+What is the Tiger Maze game system?
+
+In the Tiger Maze game, there is a maze of rooms and passages connecting the rooms. The maze of rooms and passages can be represented by a graph, such as the graph shown above. The nodes can be thought of as rooms and an edge represents a passage that connects one room to another. Each room can be connected to at most four rooms in the four directions: North, East, South and West, as represented by the graph above. 
+
+Design and Implementation Requirements
+
+In this programming assignment, you will implement the maze above using references to instances of a Node class, which you will define. Each node in the graph will be implemented as an instance of Node. The edges correspond to the links that connect one node to another and can be represented in Node as instance variables that reference another Node class object. Since there are four possible links, Node must contain four links (pointers) &#822; north, south, east and west &#822; to other Node objects.
+
+The Start variable references is a Node pointer type that points to the node where the user starts, which may represent the room A. The goal is to reach the finish point which is the node that is referenced by the Finish variable which may reference the node representing the room L.
+
+Graph Configuration
+
+The configuration of the graph that you will use in the program will be read in from a text file. Your program must first prompt the user for name of the Graph Configuration file, e.g. graphConfig1.txt, and then opens the file for reading. Each line in the file indicates information on each node, i.e. the name of the node, and the links that may exist from that node to another node in the North, East, South and West directions. If there is no link in a specific direction, then there is an ‘*’ in place of the node name. For example, the configuration file for the graph above is as follows:
+
+A E B * *
+
+B * * * A
+
+C G * * *
+
+D H * * *
+
+E * F A *
+
+F J G * E
+
+G K H C F
+
+H * * D G
+
+I * J * *
+
+J * * F I
+
+K * L G *
+
+L * * * K
+
+In the first line of the configuration file above, the name of the node is A. It has a pointer to node E in the North direction and a pointer to node B in the East direction but no link in either the South or West direction. Thus the South and West pointers are set to NULL.
+
+Your program will first read the graph configuration file and construct the graph data structures used for the Tiger Maze app. Your program must work with any graph configuration file. Several test configuration files will be released to you close to the deadline for you to test the correct execution of your program. All graph configuration files will have exactly twenty-four nodes, but their edges will be different.
+
+To construct the graph based on the configuration file, you need to search for a certain node with a particular name, e.g. in the first line, Node A must be linked to Node E and you need to find E in order to set the north link of A to E. In order to search for E, the easiest way is to put every node in an array and then scan the array for a particular node name. Define a new class called NodeList that contains an array of Node pointers that points to all the nodes in the maze. The array may be initialized by creating the nodes in the array using new operator. Then each of the node is given the nae 'A', 'B', ... The NodeList contains a member function to search for a particular node with a particular name.
+
+Traversing the Graph
+
+The game will traverse the graph based on the inputs given by the user. When the user is at a current room, the program will output the possible moves in the North, East, South or West directions. The user will then enter the room in the desired direction. While the program traverses the graph, it also counts the number of steps. Upon reaching the finish point, it will print out the congratulation banner and the number of steps taken. 
+
+The user interface must check for correct input value from the users. If there is any error, e.g. selecting an invalid direction, then the program must display the appropriate error message and continue to prompt for the correct input. Your program must not exit or terminate when there is an incorrect input value.
+
+Your program's output need not exactly match the style of the sample output (see the end of this file for one example of sample output). 
+
+Important Notes:
+You must use an object-oriented programming strategy in order to design and implement this Tiger Maze app system (in other words, you will need write class definitions and use those classes, you can’t just throw everything in main() ). A well-done implementation will produce a number of robust classes, many of which may be useful for future programs in this course and beyond. Some of the classes in your previous lab project may also be re-used here, possibly with some modifications. Remember good design practices discussed in class:
+a) A class should do one thing, and do it well
+b) Classes should NOT be highly coupled
+c) Classes should be highly cohesive
+
+You should follow standard commenting guidelines. 
+
+You DO NOT need any graphical user interface for this simple, text-based application. If you want to implement a visualization of some sort, then that is extra credit.
+
+Error-Checking:
+
+You should provide enough error-checking that a moderately informed user will not crash your program. Your prompts should still inform the user of what is expected of them, even if you have error-checking in place.
+
+Sample Usage
+
+Execute your program in the jGrasp execution window. The results of the execution will appear in the execution window. If your program expects inputs, type in the input data at the execution window. To submit your execution trace, copy the execution trace from the execution window to a text file and submit the execution trace text file together with your source program.
+
+The following is a sample usage, execution trace and user interface where user inputs are in bold.
+
+A sample execution is shown below, where the bold fonts indicate input by the user.
+
+===========================================================
+| Welcome to Tiger Maze! |
+===========================================================
+Enter the graph configuration file name: graphConfig1.txt
+
+Maze graph construction completed.
+
+You are currently in Room A of the Amazing Maze, you can go North or East. What is your choice? N
+
+You are currently in Room E of the Amazing Maze, you can go East or South. What is your choice? E
+
+You are currently in Room F of the Amazing Maze, you can go North, East or West. What is your choice? E
+
+You are currently in Room G of the Amazing Maze, you can go North, East, South or West. What is your choice? N
+
+You are currently in Room K of the Amazing Maze, you can go East or South. What is your choice? E 
+
+Congratulations! You have reached the finish point.
+
+You took 5 steps.

@@ -1,0 +1,22 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+1. You are required to submit working code and relevant testing documentation.
+2. You may be required to demonstrate the working of the program to your tutor.
+
+
+
+Problem Definition:
+The program will take user input from 20 students from GTI. It will run through a survey asking the same questions for each student starting at student 1 through to student 20:
+
+1. Choosing one of the following: Ask the user to input their favourite hobby / music genre / drink / political party /….
+
+
+I will use hobby as an example below:
+
+2. On the Input dialog ask them to select from a list of 5 hobbies (for example) numbered 1 – 5. 
+
+
+E.g. 1. Running, 2. Reading, 3. Resting, and so on.
+
+3. Take the user input, which is the number of their favourite hobby, and store it in a variable, e.g., favHobby.
+4. Based on the number they entered, record the number of students who like each of the 5 hobbies (E.g., Set up and initialise variables for each of the hobby at the start of the program. If the hobby entered is ‘1’, add 1 to Running. If the hobby entered is ‘2’, then add 1 to Reading and so on). If any other number is entered then give a message to the screen that they have entered an invalid number.

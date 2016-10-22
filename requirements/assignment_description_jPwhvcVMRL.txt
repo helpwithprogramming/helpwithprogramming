@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a Java program that plays the scissor-rock-paper game. The program allows user to continuously play until either user or compute has 3 or more wins than losses.

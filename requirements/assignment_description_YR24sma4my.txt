@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+the question is as follows: it says design a program that will calculate final mark for student and it should display the student number, name, test1-test4 marks, and also add a student, read a file..and it says the test summation is as follows: test1 10%, 20%test2,30%test3, 40%test4..pls help if u can..chek my code on notes

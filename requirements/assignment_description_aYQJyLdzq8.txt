@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+You are sick and tired of companies that give their phone numbers as "1-800-DOG-BITE" or "FAST-CASH-NOW". You want to build a translator that returns just digits. Your program should be able to able to handle a list of numbers from a file. You should be able to handle a line with any combination of numbers and upper or lower case letters. If you get more than what a phone number requires, ignore the remainder. There may or may not be a leading "1". i expect you will use a switch statement in the solution.

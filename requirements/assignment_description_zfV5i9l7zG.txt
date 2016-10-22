@@ -1,0 +1,21 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+We are asked to create a program that will display a menu that will allow the user to choose a subject, then will ask for a letter of choice. Display a corresponding trivia question based on the chosen subject, display also a list of answer to choose from, ask for the answer. evaluate the answer and display a remark like "wrong answer" or "correct!"
+
+Ex.
+
+A.English 
+B.Math
+C.Science
+
+Choice: A
+
+then,
+
+Question: What is the plural of eye?
+
+A.Eyed B.Ice C.Eyeses D.Eyes
+
+Answer:D
+
+Correct!

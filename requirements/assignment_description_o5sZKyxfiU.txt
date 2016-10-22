@@ -1,0 +1,5 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program that accepts an integer and displays it in decimal,
+octal and hexadecimal form. Use scientific calculator to verify your
+output.

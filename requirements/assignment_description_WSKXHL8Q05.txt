@@ -1,0 +1,43 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+1) When two points in time are compared, each given as hours(in military time, ranging from 0 and 23) and minutes, the following pseudocode determine which comes first.
+
+If hour1 < hour 2
+time1 comes first.
+Else if hour1 and hour 2 are the same
+if minute1 < minute2
+time1 comes first.
+Else if minute1 and minute2 are the same
+time1 and time2 are the same
+Else
+time2 comes first
+Else
+time2 comes first.
+
+Write a program that prompts the user for two points in time and prints the time that comes first then the other time.
+
+
+2)The following algorithm yields the season(Spring, Summer, Fall, or Winter) for a given month and day:
+
+If month is 1, 2, 3, season = "Winter"
+Else if Month is 4,5 or 6, season = "Spring"
+Else if month is 7, 8, 9, season = "Summer"
+Else if month is 10, 11, or 12, season = "Fall"
+If month is divisible by 3 and day >= 21
+If season "Winter", season = "Spring"
+Else if season is "Spring", season = "Summer"
+Else if season is "Summer", season = "Fall"
+Else season = "Winter"
+
+Write a program that prompts the user for a month and day and then prints the season, as determined by this algorithm.
+
+
+3)The original U.S. income tax code of 1913 was very simple. There was no separate schedule for single or married tax payers.
+The tax rate was:
+1% on the first $50,000
+2% on the amount over $50,000 up to $75,000
+3% on the amount over $75,000 up to $100,000
+4% on the amount over $100,000 up to $250,000
+5% on the amount over $250,000 up to $500,000
+6% on the amount over $500,000
+Write a program that computes the income tax according to this schedule.

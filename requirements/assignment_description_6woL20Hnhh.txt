@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Consider a wire across which data is transmitted bit-by-bit. Occasionally, a bit or a group of consecutive bits is transmitted incorrectly. If the previous bit was transmitted correctly, the probability that the current bit is transmitted incorrectly is 0.1. If the previous bit was transmitted incorrectly, the probability that the current bit is also transmitted incorrectly is 0.3. Write a program called BitError.java that simulates the transmission of one million bits and prints out the percentage of bits transmitted incorrectly. (Hint: According to theory, the expected answer is 12.5%.)

@@ -1,0 +1,22 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Title: Selling of Condominiums
+
+1st: some info about the condominium 
+like: location, unit sizes, no. of units
+
+it has 4 buildings named jasper, quartz, pyrite and chalcedony.
+
+2nd: then ask the buyer if he/she is interested to buy
+
+3rd: if he/she says "yes" we would like to ask the buyers name, id number, contact number, address, birthday, status.
+moreover, the name of your estate broker.
+if your real estate broker is not a member, it is invalid.
+
+4th: there is a choices which type of condo units he/she wants and which building would he/she wants.
+
+5th: then we want to to ask him/her if ho he/she would like to pay.
+
+cash, banking, pagibig funds.
+
+thats all thank you!!

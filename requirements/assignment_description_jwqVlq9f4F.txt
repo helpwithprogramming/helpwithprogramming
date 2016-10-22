@@ -1,0 +1,3 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project description::	The task reads a homeowner takes out a mortgage of $120 000 with an interest rate of 10.75% per year. At the end of each year an amount of $24 000 is paid. Write a program to show how the mortgage is paid off, year by year, until nothing is owing. 

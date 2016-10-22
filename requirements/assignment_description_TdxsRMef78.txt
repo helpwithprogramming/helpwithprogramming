@@ -1,0 +1,23 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Based on the following data set, which are values from 0 - 100, write a program that will count the repetitions of data in the following data range:
+
+1) 0 - 20
+
+2) 21 - 40
+
+3) 41 - 60
+
+4) 61 - 80
+
+5) 81 - 100
+
+The data set is, points[20]={54,90,32,49,65,73,87,78,62,45,82,54,67,73,43,56,43,84,61,42}
+
+Display the numbers on screen.
+
+Display the frequencies on screen.
+
+Create a second array sorted[20]. Duplicate the first array points[20] into sorted[20]. Implement a sorting algorithm to re-arrange the data values from the largest to the smallest.
+
+Display the result on screen.

@@ -1,0 +1,27 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Project Description:	You are going to create a program that will run a game called Lucky Aces.
+The program should:
+1. Ask the user for how much money they would like to put into the game.
+2. Ask the user if they want to play or cash out.
+3. If they play, deduct the cost of the game ($2) and play. If they cash out, tell them how
+much they have.
+4. After each round of the game, print the results, their winnings and their new balance to
+the screen and ask them if they want to play again or cash out. (Go back to #3).
+5. Use the random number generator method to randomly generate a card, a roll of a die
+and a toss of a coin. The users winnings will be based on the following outcome:
+Hint: The numbers can represent certain outcomes, but you will need to interpret
+their values in the context of the game. Create methods called drawCard, rollDie
+and tossCoin that will deal with the code for these actions.
+Winnings Card Die Coin
+$2 Red 1 or 2 Heads
+$4 Spades 3 or 4 Tails
+$6 Ace 5 or 6 Heads
+$0 Any Other Combination of Card/Die/Coin
+
+The results of each round played should be printed to a text file called
+“gameResults.txt”. Each round should be on a separate line under the headings
+Card, Die, Coin, and Balance. Try your best to get it to print in columns. Card
+values should be entered in the file as a string with their face value as the first
+character(s) and the suit as the second (i.e. 10H, JD, AC, 9S). Coin results should
+be printed to the file as H and T or Heads and Tails.

@@ -1,0 +1,15 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Alright so here's my problem.. I will break it down into smaller sections noting with "*" what I have managed to accomplish already.
+
+I am writing a program to:
+--------------------------------------------------------------------------------
+*1. Read in a list of phone numbers from a file, (the data in said file is not organized uniformly and the phone numbers are in the form of words) 
+
+*2. After reading in the data I would like my program to then convert all letters into the numbers they correspond to on a touch-tone telephone. 
+
+3. Then Display the original number followed by its converted equivalent. 
+
+4. All converted numbers displayed should begin with a prefix "1-" and contain "-" hyphens where appropriate. 
+
+*5. Lastly the program should disregard extra letters in the phone number that are beyond the range(length) of a normal phone number

@@ -1,0 +1,25 @@
+Visit http://www.helpwithprogramming.com for help with this assignment, or any other programming work.
+
+Write a program to compute the computer programming grades of 8 IT students. The program should take the input of:
+Randomly created student numbers for each of the students and store them in an array.
+Names of Students and store them in an array.
+Addresses of Students and store them in array.
+Previous Grade for student. (A,B,C…..)
+Marks for ‘Computer Programming Assignment 1’ (out of 25 marks)
+Marks for ‘Computer Programming Assignment 2’ (out of 25 marks)
+Marks for ‘Computer Programming Exam’ (out of 50 marks)
+Based on the above input, work out the ‘Final Marks’ for Computer Programming (Assignment 1 + Assignment 2 + Exam) and store it in an array.
+
+
+
+Then work out
+The average Final Grade for the ‘Computer Programming’ class 2010. 
+The number of A’s, B’s, C’s, D’s, and Fails for ‘Computer Programming’ 2010.
+The name, address, previous grade, this year’s grade and percentage, and student number for each student.
+
+
+Deliverables:
+Appropriate layout of code
+Commented code
+Working Code saved to disk
+Test cases and a report on testing
